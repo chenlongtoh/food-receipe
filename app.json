@@ -10,11 +10,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "packagerOpts": {
+      "assetExts": [
+        "xml", "db"
+      ]
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/**",
+      "assets/*.xml",
+      "assets/*.db"
     ],
     "ios": {
       "supportsTablet": true
